@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {Header, Nav, Articles, Footer} from "./components/index"
+import {Header, Nav, Articles, Latest, Footer} from "./components/index"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -9,6 +9,7 @@ root.render(
       <Header/>
       <Nav/>
       <Articles/>
+      <Latest/>
       <Footer/>
   </React.StrictMode>
 );
