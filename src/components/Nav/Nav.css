@@ -1,0 +1,43 @@
+.nav {
+    margin-top: 20px;
+}
+
+.nav__app {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__app__text h2 {
+    line-height: 64px;
+    margin-top: 200px;
+    font-size: 56px;
+    color: #2D314D;
+}
+
+.nav__app__text p {
+    width: 400px;
+    line-height: 24px;
+    margin-top: 24px;
+    font-size: 18px;
+    color: #9597A5;
+}
+
+.nav__app__text .button {
+    margin-top: 36px;
+}
+
+.nav__app__img {
+    width: 550px;
+    height: 800px;
+    background-image: url('./hero-bg-desktop.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__app__img img {
+    width: 100%;
+    height: auto;
+}

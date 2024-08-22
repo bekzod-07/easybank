@@ -1,0 +1,39 @@
+.articles {
+    background: #F4F5F7;
+    height: 676px;
+}
+
+.articles__app {
+    column-count: 4;
+    column-gap: 60px;
+    margin-top: 72px;
+}
+
+.articles__text h2 {
+    padding-top: 96px;
+    font-size: 40px;
+    color: #2D314D;
+}
+
+.articles__text p {
+    margin-top: 16px;
+    width: 600px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+}
+
+.articles__app__column h3 {
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 24px;
+    color: #2D314D;
+}
+
+.articles__app__column p {
+    margin-top: 26px;
+    font-weight: 100;
+    font-size: 16px;
+    color: #9597A5;
+}
