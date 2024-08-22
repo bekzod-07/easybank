@@ -6,7 +6,7 @@ import { FaFacebookF, FaYoutube, FaTwitter, FaPinterestP, FaInstagram } from 're
 function Footer() {
     return (
         <footer className="footer">
-            <div className="container">
+            <div className="app">
                 <div className="footer__left">
                     <img src={logo} alt="easybank logo" className="footer__logo" />
                     <div className="footer__social">
